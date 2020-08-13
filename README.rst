@@ -1,3 +1,23 @@
+This was a team project completed for the Hack 112 competition at Carnegie Mellon University. 
+
+Contributors: 
+George Gao
+Shivank Joshi
+Bryce Yeazell
+
+The project's goal was to analyze a given excerpt and then tell the user what genre that excerpt came from. 
+
+The project ran in 3 parts. 
+The first part was webscraping. This was handled by me (George). The code simply ran through a website gathering excerpts from books of popular genres and assimulated them into a text file. This was done with the help of selenium, beautiful soup, and requests. 
+
+The second part handled processing all the data to build a database for each genre of a book and was handled mostly by Shivank. He used TextBlob to read and analyze the excerpts and assigned 'scores' to each excerpt based on a few different catagories such as gramatical syntax, sentence structure, etc. He stored the scores in a seperate text file. 
+
+The final part, the UI was designed by Bryce. We used a graphics module designed by Carnegie Mellon University. It prompts users to enter an excerpt, and would return an image, as well as a guess as to which genre the excerpt had came from. 
+
+To run the code now, the user only needs to interact with the UI portion, which is found under the python file: 
+
+We used a multitude of modules for the project one of which is TextBlob. The TextBlob ReadMe is found below.
+
 
 TextBlob: Simplified Text Processing
 ====================================
