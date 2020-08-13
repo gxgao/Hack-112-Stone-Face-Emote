@@ -1,4 +1,4 @@
-This was a team project completed for the Hack 112 competition at Carnegie Mellon University. 
+This was a team project under the name Stone-Face-Emoji completed for the Hack 112 competition at Carnegie Mellon University. 
 
 Contributors: 
 George Gao
