@@ -12,9 +12,10 @@ The first part was webscraping. This was handled by me (George). The code simply
 
 The second part handled processing all the data to build a database for each genre of a book and was handled mostly by Shivank. He used TextBlob to read and analyze the excerpts and assigned 'scores' to each excerpt based on a few different catagories such as gramatical syntax, sentence structure, etc. He stored the scores in a seperate text file. 
 
-The final part, the UI was designed by Bryce. We used a graphics module designed by Carnegie Mellon University. It prompts users to enter an excerpt, and would return an image, as well as a guess as to which genre the excerpt had came from. 
+The final part, the UI was designed by Bryce. We used a graphics module designed by Carnegie Mellon University. It prompts users to enter an excerpt, and would return an image, as well as a guess as to which genre the excerpt had came from. Updated UX was done by me (George) to bug fix some UI problems. 
 
 To run the code now, the user only needs to interact with the UI portion, which is found under the python file: UX.py. The other files are setup, and data. 
+To use the code, run UX.py. Click the program. It will prompt you to enter a possible excerpt into the terminal. Once done press enter, the app should automatically update with the result. To quit the program close out or press e. 
 
 We used a multitude of modules for the project one of which is TextBlob. The TextBlob ReadMe is found below.
 
