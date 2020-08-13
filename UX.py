@@ -319,12 +319,17 @@ def keyPressed(app, event):
 
 def redrawAll(app, canvas):
     #draw function for the app
-    canvas.create_rectangle(0,0,app.width,app.height,fill=app.color)
+    canvas.create_rectangle(0,0,app.width,app.height, fill='gray27')
     #draws the background color
-    canvas.create_text(app.width//2,app.height//10,text=app.genre,
-    font="Arial 32 bold") #writes the genre of text excerpt
-    canvas.create_image(app.width//2,app.height*0.55,
-    image=ImageTk.PhotoImage(app.bookCover))
+    try:
+        canvas.create_text(app.width//2,app.height//10,text=app.genre,
+        font="Arial 32 bold") #writes the genre of text excerpt
+        canvas.create_image(app.width//2,app.height*0.55,
+        image=ImageTk.PhotoImage(app.bookCover))
+    except:
+        canvas.create_text(app.width//2, app.height//10, 
+        font=('Arial bold',24), width=app.width-20, fill='white',
+        text='Please enter the excerpt in the terminal')
     #creates the image associated with the genre
 
 
