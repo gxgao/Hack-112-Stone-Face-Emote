@@ -14,7 +14,7 @@ The second part handled processing all the data to build a database for each gen
 
 The final part, the UI was designed by Bryce. We used a graphics module designed by Carnegie Mellon University. It prompts users to enter an excerpt, and would return an image, as well as a guess as to which genre the excerpt had came from. 
 
-To run the code now, the user only needs to interact with the UI portion, which is found under the python file: 
+To run the code now, the user only needs to interact with the UI portion, which is found under the python file: UX.py. The other files are setup, and data. 
 
 We used a multitude of modules for the project one of which is TextBlob. The TextBlob ReadMe is found below.
 
